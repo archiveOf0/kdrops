@@ -1,0 +1,5 @@
+reloaded: "§cReloaded!"
+notEnoughPermission: "§cYou don't have enough permission to execute this command!"
+noConsole: "Console can't execute this command!"
+emptyHand: "§cYou have to hold item!"
+pasted: "§aThe item in your hand is pasted to paste.yml"

@@ -1,0 +1,36 @@
+drop-1:
+  requirements:
+    typeCheck:
+      type: TYPE
+      entityType: ZOMBIE
+    nameCheck:
+      type: NAME
+      name: "§cSpecial Zombie"
+  actions:
+    dropStick:
+      type: DROP
+      item:
+        material: STICK
+    giveDiamond:
+      type: GIVE
+      item:
+        material: DIAMOND
+        amount: 3
+        name: "§bSpecial Diamond!!"
+drop-2:
+  requirements:
+    typeCheck:
+      type: TYPE
+      entityType: SKELETON
+    chanceCheck:
+      type: CHANCE
+      chance: 50.0
+  actions:
+    specialApple:
+      type: GIVE
+      item:
+        material: APPLE
+        amount: 5
+        name: "§cSTRONG APPLE"
+        enchants:
+          DURABILITY: 10

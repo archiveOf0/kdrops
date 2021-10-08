@@ -1,0 +1,7 @@
+main: com.kingOf0.drop.KDrops
+version: 3.0
+name: KDrops
+author: kingOf0
+api-version: 1.17
+commands:
+  kdrops: {}
